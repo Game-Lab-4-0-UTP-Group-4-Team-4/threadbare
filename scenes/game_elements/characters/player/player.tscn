@@ -47,10 +47,9 @@ anim_speed_min = 1.0
 anim_speed_max = 1.0
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_3vyb7"]
-height = 42.0
+height = 20.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_blfj0"]
-size = Vector2(110, 80)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_je7p5"]
 size = Vector2(32, 47)
@@ -204,7 +203,7 @@ tracks/7/keys = {
 
 [sub_resource type="Animation" id="Animation_u5klv"]
 resource_name = "blow"
-length = 0.6
+length = 0.65
 loop_mode = 1
 step = 0.1
 tracks/0/type = "value"
@@ -454,6 +453,7 @@ autoplay = "idle"
 script = ExtResource("3_qlg0r")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, -18)
 rotation = -1.5708
 shape = SubResource("CapsuleShape2D_3vyb7")
 
@@ -469,7 +469,7 @@ script = ExtResource("6_3in67")
 character = NodePath("../..")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerInteraction/InteractZone"]
-position = Vector2(47, -30)
+position = Vector2(-1, -18)
 shape = SubResource("RectangleShape2D_blfj0")
 
 [node name="InteractMarker" type="Marker2D" parent="PlayerInteraction"]
@@ -478,15 +478,10 @@ position = Vector2(-1, -116)
 
 [node name="InteractLabel" parent="PlayerInteraction/InteractMarker" instance=ExtResource("6_h17s1")]
 unique_name_in_owner = true
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
 offset_left = 1.0
 offset_top = 11.0
 offset_right = 1.0
 offset_bottom = 11.0
-grow_horizontal = 2
-grow_vertical = 2
 
 [node name="PlayerFighting" type="Node2D" parent="."]
 unique_name_in_owner = true

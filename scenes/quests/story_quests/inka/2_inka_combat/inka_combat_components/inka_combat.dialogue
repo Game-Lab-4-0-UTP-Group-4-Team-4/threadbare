@@ -2,10 +2,23 @@
 # SPDX-License-Identifier: MPL-2.0
 
 ~ start
-Something in this scene will throw projectiles at you. The goal is to redirect them toward the targets.
-Explore the Scene Tree to add, change, or remove elements.
-=> END
 
-~ well_done
-You can add text here after the player takes the collectible. Be creative with this one!
+(Pizarro observa con arrogancia desde lo alto de una plataforma de piedra, rodeado por columnas imponentes. El protagonista entra al salón.)
+
+Pizarro: Vaya, vaya… ¿un perro inca que aprendió a romper cadenas? Qué espectáculo.
+
+(Protagonista avanza, firme. Una esfera dorada brilla sutilmente a su lado.)
+
+Protagonista: No soy un perro… soy eco de las montañas, hijo del Inti. Tus días de saqueo terminan aquí.
+
+Pizarro: ¡Hablas de dioses como si aún existieran! ¡Yo forjo imperios con fuego y acero!
+
+(Protagonista levanta su mano. Un brillo solar envuelve sus dedos.)
+
+Protagonista: El fuego que robaste… ahora lo devuelvo multiplicado.
+
+Narrador: Inti le ha otorgado la "Llama Solar": el poder de redirigir la destrucción hacia su fuente. El elegido no atacará con odio, sino con justicia ardiente.
+
+Narrador: ¡Refleja los ataques de Pizarro! Cada proyectil devuelto debilita su escudo de arrogancia. Solo así podrá romper el yugo del conquistador.
+
 => END

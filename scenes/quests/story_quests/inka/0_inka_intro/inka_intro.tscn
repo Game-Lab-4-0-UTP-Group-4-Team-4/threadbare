@@ -1,8 +1,9 @@
-[gd_scene load_steps=11 format=4 uid="uid://cggwktdcemawv"]
+[gd_scene load_steps=12 format=4 uid="uid://cggwktdcemawv"]
 
 [ext_resource type="TileSet" uid="uid://07fq3rspk8ia" path="res://scenes/tileset.tres" id="1_xnvxp"]
-[ext_resource type="Texture2D" uid="uid://07k43id4c81h" path="res://scenes/quests/story_quests/template/0_template_intro/template_intro_components/template_Replace image.png" id="2_rx0vt"]
+[ext_resource type="Texture2D" uid="uid://bc0pbbyyobsjs" path="res://scenes/quests/story_quests/inka/0_inka_intro/inka_intro_components/Castillo.png" id="2_rx0vt"]
 [ext_resource type="SpriteFrames" uid="uid://vwf8e1v8brdp" path="res://scenes/quests/story_quests/template/template_player_components/template_player.tres" id="3_77pob"]
+[ext_resource type="TileSet" uid="uid://o0ps7m5s3ogn" path="res://scenes/quests/story_quests/inka/2_inka_combat/inka_combat_components/inka_tile_2/inka_combat_tileset.tres" id="3_rx0vt"]
 [ext_resource type="Script" uid="uid://x1mxt6bmei2o" path="res://scenes/ui_elements/cinematic/cinematic.gd" id="4_76ad3"]
 [ext_resource type="Resource" uid="uid://caj2i4x0okyg4" path="res://scenes/quests/story_quests/inka/0_inka_intro/inka_intro_components/inka_intro.dialogue" id="5_xnvxp"]
 [ext_resource type="PackedScene" uid="uid://v3usqiwy5wpr" path="res://scenes/game_elements/props/decoration/rock/rock.tscn" id="6_ooqga"]
@@ -108,13 +109,13 @@ tile_set = ExtResource("1_xnvxp")
 metadata/_edit_lock_ = true
 
 [node name="IntroImage" type="Sprite2D" parent="TileMapLayers"]
-position = Vector2(770, 227)
-scale = Vector2(0.802083, 0.802083)
+position = Vector2(864.25, 225.25)
+scale = Vector2(6.10156, 6.11486)
 texture = ExtResource("2_rx0vt")
 
 [node name="Sand" type="TileMapLayer" parent="TileMapLayers"]
-tile_map_data = PackedByteArray("AAAKAAEABgAAAAAAAAAKAAIABgADAAEAAAAKAAMABgADAAEAAAAKAAQABgADAAEAAAANAAEABgACAAAAAAANAAIABgADAAEAAAANAAMABgADAAEAAAANAAQABgADAAEAAAAKAAUABgAAAAIAAAALAAEABgABAAMAAAALAAUABgABAAMAAAAMAAEABgABAAMAAAAMAAUABgABAAMAAAANAAUABgACAAIAAAAAAAcAAQAGAAMAAAABAAcAAQAGAAMAAAACAAcAAQAGAAMAAAADAAcAAQAGAAMAAAAEAAcAAQAGAAMAAAAFAAcAAQAGAAMAAAAGAAcAAQAGAAMAAAAHAAcAAQAGAAMAAAAIAAcAAQAGAAMAAAAJAAcAAQAGAAMAAAAKAAcAAQAGAAMAAAALAAcAAQAGAAMAAAAMAAcAAQAGAAMAAAANAAcAAQAGAAMAAAAOAAcAAQAGAAMAAAA=")
-tile_set = ExtResource("1_xnvxp")
+tile_map_data = PackedByteArray("AAAOAAcAAQAFAAAAAAAAAAcAAQAFAAAAAAABAAcAAQAFAAAAAAACAAcAAQAFAAAAAAADAAcAAQAFAAAAAAAEAAcAAQAFAAAAAAAFAAcAAQAFAAAAAAAGAAcAAQAFAAAAAAAHAAcAAQAFAAAAAAAIAAcAAQAFAAAAAAAJAAcAAQAFAAAAAAAKAAcAAQAFAAAAAAALAAcAAQAFAAAAAAAMAAcAAQAFAAAAAAANAAcAAQAFAAAAAAA=")
+tile_set = ExtResource("3_rx0vt")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(153, 366)
@@ -148,7 +149,7 @@ libraries = {
 script = ExtResource("4_76ad3")
 dialogue = ExtResource("5_xnvxp")
 animation_player = NodePath("../OnTheGround/AnimationPlayer")
-next_scene = "uid://dkjhnclg7nxf3"
+next_scene = "uid://bqr7kt2tlhal8"
 metadata/_custom_type_script = "uid://x1mxt6bmei2o"
 
 [node name="Rock" parent="." instance=ExtResource("6_ooqga")]

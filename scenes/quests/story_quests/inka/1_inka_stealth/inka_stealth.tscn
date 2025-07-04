@@ -1,7 +1,6 @@
-[gd_scene load_steps=15 format=4 uid="uid://dkjhnclg7nxf3"]
+[gd_scene load_steps=14 format=4 uid="uid://dkjhnclg7nxf3"]
 
 [ext_resource type="Texture2D" uid="uid://8qij8dv35tlb" path="res://scenes/quests/story_quests/inka/1_inka_stealth/inka_stealth_components/inka_tiles/Tileset_Nivel_1.png" id="1_ueiay"]
-[ext_resource type="Texture2D" uid="uid://cvmpb3jc6pyde" path="res://scenes/quests/story_quests/inka/1_inka_stealth/inka_stealth_components/inka_tiles/escalera de subida.png" id="2_n0054"]
 [ext_resource type="PackedScene" uid="uid://b8opbag1j4gpj" path="res://scenes/quests/story_quests/inka/inka_player_components/inka_player/player.tscn" id="2_smg8d"]
 [ext_resource type="Script" uid="uid://bq1xmr5w2dt3w" path="res://scenes/quests/story_quests/inka/1_inka_stealth/puerta_salida.gd" id="2_xculv"]
 [ext_resource type="PackedScene" uid="uid://d30mw6uvpm14u" path="res://scenes/quests/story_quests/inka/1_inka_stealth/inka_stealth_components/inka_enemy/enemy.tscn" id="3_n0054"]
@@ -1993,10 +1992,10 @@ position = Vector2(1026, 523)
 script = ExtResource("2_xculv")
 
 [node name="Sprite2D" type="Sprite2D" parent="TilemapLayers/PuertaSalida"]
-texture = ExtResource("2_n0054")
+position = Vector2(17, 45)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TilemapLayers/PuertaSalida"]
-position = Vector2(4.5, 4.25)
+position = Vector2(-3, -21)
 shape = SubResource("RectangleShape2D_smg8d")
 
 [node name="Player" parent="." instance=ExtResource("2_smg8d")]

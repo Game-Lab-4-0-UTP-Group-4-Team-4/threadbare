@@ -1,12 +1,42 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
+
 ~ start
-# Wait a moment before starting the dialogue proper. In particular, this allows
-# time for any fade-in transition from the previous scene to finish.
+# Esperar antes de comenzar el diálogo (transición)
 do animation_player.play(&"delay_start")
 do animation_player.animation_finished
+
+# Animación de presentación de imágenes
 do animation_player.play(&"sketches")
-[speed=0.5]You know that feeling you get when you wrap yourself in your favorite blanket? Like a cozy hug from a loved one.
-[speed=0.5]What if I told you there is a world made of fabric, not too far away and not too near, that used to feel just like that hug?
-[speed=0.5]This world was made of stitches and stories, and people were happy. Until ...
+
+[speed=0.5]Recuerdo con pesar aquel tiempo dorado… era el año 1534, cuando el Inti aún nos abrazaba desde lo alto y nuestras tierras cantaban en paz.
+[speed=0.5]Vivíamos entre chacras y rituales, guiados por los apus, sin temor ni cadenas.
+[speed=0.5]Las risas de los niños se mezclaban con el viento y las montañas nos cuidaban.
+[speed=0.5]Pero aquel equilibrio pronto sería quebrado. Mi alma aún sangra por lo que perdimos.
+
+[speed=0.5]Pasaron los soles… y desde el horizonte del gran mar, surgieron naves extrañas como casas flotantes.
+[speed=0.5]De ellas bajaron hombres cubiertos de metal, con rostros ocultos y armas que escupían fuego.
+[speed=0.5]No hablaban como nosotros. No pedían permiso. Miraban nuestras tierras con hambre.
+[speed=0.5]Ese día los vientos cambiaron y el miedo se sembró en el corazón del Tahuantinsuyo.
+
+[speed=0.5]Al poco tiempo, el fuego y el grito se hicieron dueños de nuestras calles.
+[speed=0.5]Aquellos hombres de metal no vinieron en paz. Saquearon templos, tomaron a nuestros sabios y rompieron la palabra de nuestros ancestros.
+[speed=0.5]Vi caer a mi ayllu bajo sus látigos y sus risas.
+[speed=0.5]Yo, que sólo conocía el canto de la tierra… vi cómo todo fue silenciado por el trueno extranjero.
+
+[speed=0.5]Me arrebataron todo. Mi madre, mis hermanos, mi libertad… y me arrastraron a las entrañas de la tierra.
+[speed=0.5]Allí, en la oscuridad de la mina, cada respiro era polvo y cada día era castigo.
+[speed=0.5]Mis manos sangraban por el metal ajeno y mis ojos olvidaron la luz del Inti.
+[speed=0.5]En esas sombras, mi espíritu fue encadenado… y el silencio fue mi único compañero.
+
+[speed=0.5]En lo más profundo de la oscuridad, cuando ya creía que mi alma había muerto, una chispa de calor me tocó el pecho.
+[speed=0.5]No era fuego de látigo ni antorcha española. Era Inti hablándome sin voz, despertándome con su luz.
+[speed=0.5]Sentí que no estaba solo. Los dioses no nos habían olvidado.
+[speed=0.5]En medio del dolor, nació la llama… y mi espíritu volvió a respirar.
+
+[speed=0.5]Esa noche el metal ya no pesaba en mis muñecas. Sentí al Inti dentro de mí, guiando mis pasos.
+[speed=0.5]Con la fuerza de mis ancestros rompí la puerta, no con odio, sino con memoria.
+[speed=0.5]Ya no era un esclavo. Era el eco de mi pueblo, el rugido de un tiempo que no se rinde.
+[speed=0.5]En la oscuridad de la prisión, encendí mi primer acto de libertad.
+
 => END

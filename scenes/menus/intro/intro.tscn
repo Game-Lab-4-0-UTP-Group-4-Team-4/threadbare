@@ -1,16 +1,15 @@
-[gd_scene load_steps=18 format=3 uid="uid://dow5vc7yb5k2c"]
+[gd_scene load_steps=17 format=3 uid="uid://dow5vc7yb5k2c"]
 
 [ext_resource type="PackedScene" uid="uid://2rbpl811wlv1" path="res://scenes/game_elements/props/background_music/background_music.tscn" id="1_1dipm"]
 [ext_resource type="Script" uid="uid://x1mxt6bmei2o" path="res://scenes/ui_elements/cinematic/cinematic.gd" id="1_qeukb"]
 [ext_resource type="AudioStream" uid="uid://dk10o5q87xbct" path="res://assets/first_party/music/Threadbare Loop_Main_Bridge_01.ogg" id="2_1dipm"]
-[ext_resource type="Texture2D" uid="uid://bvlx57seuur65" path="res://assets/first_party/intro/background.png" id="2_a6oma"]
 [ext_resource type="Shader" uid="uid://c5volxtfxq3ru" path="res://scenes/menus/intro/components/intro.gdshader" id="2_teox7"]
-[ext_resource type="Texture2D" uid="uid://dcgv7dmarddhb" path="res://assets/first_party/intro/sketch_01.png" id="3_gvvib"]
-[ext_resource type="Texture2D" uid="uid://cstytr1q6epdb" path="res://assets/first_party/intro/sketch_02.png" id="4_gvvib"]
 [ext_resource type="Resource" uid="uid://bq1eaih8esqsi" path="res://scenes/menus/intro/components/intro.dialogue" id="4_rpon1"]
-[ext_resource type="Texture2D" uid="uid://byrrpp1mkb0pj" path="res://assets/first_party/intro/sketch_03.png" id="5_mqh0g"]
-[ext_resource type="Texture2D" uid="uid://0q44uwql6evw" path="res://assets/first_party/intro/sketch_04.png" id="6_4ymxw"]
-[ext_resource type="Texture2D" uid="uid://b38btb8y8bsx3" path="res://assets/first_party/intro/sketch_05.png" id="7_5fnp7"]
+[ext_resource type="Texture2D" uid="uid://b2htrh4fbprwf" path="res://scenes/menus/intro/components/imagen 2.webp" id="5_1dipm"]
+[ext_resource type="Texture2D" uid="uid://divuftkg3yagx" path="res://scenes/menus/intro/components/imagen 3.webp" id="6_1dipm"]
+[ext_resource type="Texture2D" uid="uid://btty74damqc2k" path="res://scenes/menus/intro/components/imagen 4.jpg" id="7_1dipm"]
+[ext_resource type="Texture2D" uid="uid://dei5q3ikpqw0a" path="res://scenes/menus/intro/components/Imagen 5.jpg" id="8_fawxe"]
+[ext_resource type="Texture2D" uid="uid://cytir1wlj0rx" path="res://scenes/menus/intro/components/Imagen 6.jpg" id="9_1dipm"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_8twl8"]
 shader = ExtResource("2_teox7")
@@ -357,37 +356,45 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = -6.0
+offset_top = 9.0
+offset_right = 24.0
+offset_bottom = 9.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_a6oma")
 expand_mode = 3
 stretch_mode = 6
 
 [node name="Sketch01" type="Sprite2D" parent="CanvasLayer/Control"]
 visible = false
 material = SubResource("CanvasItemMaterial_mqh0g")
-position = Vector2(1379, 540)
-texture = ExtResource("3_gvvib")
+position = Vector2(967.5, 542.214)
+scale = Vector2(1.6112, 1.57247)
+texture = ExtResource("5_1dipm")
 
 [node name="Sketch02" type="Sprite2D" parent="CanvasLayer/Control"]
 visible = false
-position = Vector2(1493, 540)
-texture = ExtResource("4_gvvib")
+position = Vector2(969, 539.211)
+scale = Vector2(1.62207, 1.57833)
+texture = ExtResource("6_1dipm")
 
 [node name="Sketch03" type="Sprite2D" parent="CanvasLayer/Control"]
 visible = false
-position = Vector2(1403, 540)
-texture = ExtResource("5_mqh0g")
+position = Vector2(959.5, 535.5)
+scale = Vector2(0.830295, 0.599888)
+texture = ExtResource("7_1dipm")
 
 [node name="Sketch04" type="Sprite2D" parent="CanvasLayer/Control"]
 visible = false
-position = Vector2(1289, 540)
-texture = ExtResource("6_4ymxw")
+position = Vector2(968, 560.5)
+scale = Vector2(0.844618, 0.623326)
+texture = ExtResource("8_fawxe")
 
 [node name="Sketch05" type="Sprite2D" parent="CanvasLayer/Control"]
 visible = false
-position = Vector2(1217, 451)
-texture = ExtResource("7_5fnp7")
+position = Vector2(960.125, 541.75)
+scale = Vector2(0.832357, 0.596261)
+texture = ExtResource("9_1dipm")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -399,6 +406,6 @@ speed_scale = 0.5
 script = ExtResource("1_qeukb")
 dialogue = ExtResource("4_rpon1")
 animation_player = NodePath("../AnimationPlayer")
-next_scene = "uid://cufkthb25mpxy"
+next_scene = "uid://dkjhnclg7nxf3"
 spawn_point_path = "SpawnPointAfterIntro"
 metadata/_custom_type_script = "uid://x1mxt6bmei2o"

@@ -1,9 +1,9 @@
 [gd_scene load_steps=27 format=3 uid="uid://d30mw6uvpm14u"]
 
-[ext_resource type="Script" uid="uid://bn4t2io0p0c7b" path="res://Scenes/Enemy/enemy.gd" id="1_2t2r4"]
-[ext_resource type="Texture2D" uid="uid://cmuc37qg0hajd" path="res://Assets/Sprites/Enemy/Guardias_Parado.png" id="1_nvvbs"]
-[ext_resource type="Texture2D" uid="uid://djyvj7o0p0roq" path="res://Assets/Sprites/Enemy/Guardias_Caminando.png" id="2_2t2r4"]
-[ext_resource type="Texture2D" uid="uid://bxy5mvsmoymhi" path="res://Assets/Sprites/Enemy/Guardias_Atacando.png" id="2_dmwl5"]
+[ext_resource type="Script" uid="uid://bn4t2io0p0c7b" path="res://scenes/quests/story_quests/inka/1_inka_stealth/inka_stealth_components/inka_enemy/enemy.gd" id="1_2t2r4"]
+[ext_resource type="Texture2D" uid="uid://cmuc37qg0hajd" path="res://scenes/quests/story_quests/inka/1_inka_stealth/inka_stealth_components/inka_enemy/Guardias_Parado.png" id="1_nvvbs"]
+[ext_resource type="Texture2D" uid="uid://djyvj7o0p0roq" path="res://scenes/quests/story_quests/inka/1_inka_stealth/inka_stealth_components/inka_enemy/Guardias_Caminando.png" id="2_2t2r4"]
+[ext_resource type="Texture2D" uid="uid://bxy5mvsmoymhi" path="res://scenes/quests/story_quests/inka/1_inka_stealth/inka_stealth_components/inka_enemy/Guardias_Atacando.png" id="2_dmwl5"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_r1w2j"]
 atlas = ExtResource("2_dmwl5")
@@ -153,7 +153,7 @@ animations = [{
 size = Vector2(20, 17)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_dmwl5"]
-radius = 27.0185
+radius = 15.2315
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d40jh"]
 size = Vector2(13, 8)
