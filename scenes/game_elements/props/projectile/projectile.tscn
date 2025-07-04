@@ -34,6 +34,7 @@ position = Vector2(-3, 0)
 unique_name_in_owner = true
 sprite_frames = ExtResource("2_8sng6")
 autoplay = "default"
+frame_progress = 0.510766
 
 [node name="TrailFXMarker" type="Marker2D" parent="VisibleThings"]
 unique_name_in_owner = true

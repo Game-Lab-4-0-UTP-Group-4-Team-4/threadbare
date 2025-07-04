@@ -15,4 +15,4 @@ func _on_body_exited(body: Node2D) -> void:
 func _input(event):
 	if player_inside and event.is_action_pressed("ui_accept"):
 		print("Presionaste Enter dentro del área")  # 👈 para depurar
-		get_tree().change_scene_to_file("res://scenes/quests/story_quests/inka/3_inka_sequence_puzzle/inka_sequence_puzzle.tscn")
+		get_tree().change_scene_to_file("res://scenes/quests/story_quests/inka/0_inka_intro/inka_intro.tscn")

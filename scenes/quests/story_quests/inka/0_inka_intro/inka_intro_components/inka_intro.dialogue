@@ -5,21 +5,21 @@
 do animation_player.play(&"walk_on")
 do animation_player.animation_finished
 
-Narrador: Año 1536. En las profundidades de una mina colonial, la esperanza ha sido enterrada junto con la historia de un imperio.
+Narrador: Tras escapar de las entrañas de la mina, guiado por la llama del Inti, el joven llega al umbral del poder enemigo.
 
-Protagonista: (No puedo más... El aire es ceniza. Mis manos tiemblan. ¿Esto es lo que queda de mí?)
+(El protagonista se detiene frente a la entrada del castillo, respirando profundamente.)
 
-Narrador: Pero cuando todo parece perdido, una luz cálida atraviesa la oscuridad.
+Protagonista (pensamiento): Aquí es donde comenzó todo... Aquí arrebataron nuestras vidas, nuestra fe, nuestra historia.
 
-Inti: Hijo del Sol... No has sido olvidado. Tu alma aún arde como la llama sagrada del Tahuantinsuyo.
+(Se escucha un leve eco del viento, como susurros de los ancestros.)
 
-Protagonista: ¿Quién... quién eres?
+Protagonista: No vengo con miedo. Vengo con memoria. Cada paso que doy es por los que ya no pueden caminar.
 
-Inti: Soy Inti, guardián de tu linaje. Te he elegido. Escapa. Lucha. Libera a tu pueblo.
+Narrador: Ante las puertas de piedra, custodiadas por siglos de injusticia, el elegido del Tahuantinsuyo no tiembla.
 
-Protagonista: ¿Liberar...? Pero... estoy roto...
+Protagonista: Pizarro... hoy la tierra hablará. Hoy, escucharás el rugido de los que creíste silenciar.
 
-Inti: Entonces renace. El fuego que arde en ti es más antiguo que esta oscuridad.
 do animation_player.play(&"walk_off")
-Narrador: Guiado por la luz de los antiguos dioses, el joven da el primer paso hacia su destino.
+Narrador: Y así, con el corazón ardiendo y los pasos firmes, el joven entra al castillo. No como esclavo, sino como el juicio de un imperio.
+
 => END

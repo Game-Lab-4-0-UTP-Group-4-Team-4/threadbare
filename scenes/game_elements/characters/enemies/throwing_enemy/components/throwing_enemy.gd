@@ -302,7 +302,7 @@ func remove() -> void:
 	_is_defeated = true
 	animation_player.play(&"defeated")
 	await animation_player.animation_finished
-	queue_free()
+	get_tree().change_scene_to_file("res://scenes/quests/story_quests/inka/4_inka_outro/inka_outro.tscn")
 
 
 func _set_idle_sound_stream(new_value: AudioStream) -> void:
